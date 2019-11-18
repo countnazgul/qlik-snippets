@@ -1,0 +1,9 @@
+{
+    "id": "Calendar",
+    "name": "Calendar script",
+    "description": "The most effective calendar script! (IMHO)<br />Two things can/must be changed - `DateId` field (to match the script one) and date format (`DD/MM/YYY` part)",
+    "code": "Calendar:\nLoad\n  TempDate                                             as DateId, \n  date(TempDate, 'DD/MM/YYYY')                         as Date,\n  week(TempDate)                                       as Week, \n  year(TempDate)                                       as Year, \n  monthname(TempDate)                                  as Month,\n  day(TempDate)                                        as Day,\n  'Q' & ceil(month(TempDate) / 3)                      as Quarter, \n  week(weekstart(TempDate)) & '-' & WeekYear(TempDate) as WeekYear,\n  weekDay(TempDate)                                    as WeekDay \n;\nLoad\n  date(mindate + IterNo()) as TempDate,\n  maxdate\nWhile\n   mindate + IterNo() <= maxdate\n;\nLoad\n  min(FieldValue('DateId', recno()))-1 as mindate,\n  max(FieldValue('DateId', recno()))   as maxdate\nAutoGenerate\n   FieldValueCount('DateId')\n;",
+    "references": ["http://qlikviewcookbook.com/2015/05/better-calendar-scripts/"],
+    "tags": "calendar, script",
+    "contributor": { "name": "QlikView Cook Book", "link": "http://qlikviewcookbook.com" }
+}  

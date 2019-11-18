@@ -3,5 +3,10 @@
         "id": "sa-between-two-dates",
         "type": "expressions",
         "name": "Set Analysis - between two dates"
-    }
+    },
+    {
+        "id": "calendar",
+        "type": "script",
+        "name": "Calendar"
+    }    
 ]
