@@ -5,8 +5,33 @@
         "name": "Set Analysis - between two dates"
     },
     {
+        "id": "sa-between-two-variables",
+        "type": "expressions",
+        "name": "Set Analysis - between two variables"
+    },
+    {
         "id": "calendar",
         "type": "script",
         "name": "Calendar"
-    }    
+    },
+    {
+        "id": "sa-alternate-states",
+        "type": "expressions",
+        "name": "Set Analysis - alternate states"
+    },
+    {
+        "id": "sa-with-rank",
+        "type": "expressions",
+        "name": "Set Analysis - with Rank"
+    },
+    {
+        "id": "var-with-arguments",
+        "type": "expressions",
+        "name": "Variable with Arguments/Parameters"
+    },
+    {
+        "id": "sa-min-max",
+        "type": "expressions",
+        "name": "Set Analysis - using max()/min() function"
+    }
 ]

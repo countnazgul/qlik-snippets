@@ -6,6 +6,5 @@
     "filename": "",
     "references": ["https://community.qlik.com/thread/33737", "https://community.qlik.com/blogs/qlikviewdesignblog/2015/09/28/dates-in-set-analysis"],
     "tags": "set analysis",
-    "contributor": { "name": "qlik-snippets", "link": "http://qlik-snippets.com" },
-    "live": true
+    "contributor": { "name": "qlik-snippets", "link": "http://qlik-snippets.com" }
 }
