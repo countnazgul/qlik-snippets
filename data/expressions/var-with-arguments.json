@@ -1,7 +1,7 @@
 {
     "name": "Variable with Arguments/Parameters",
     "description": "Having same calculation but with different conditions can be simplified by using variables with arguments.<br>Unlimited numbers of arguments can be used. Variable definistion shouldn't start with `=` sign.<br>The arguments are defined in the variable with `$x` where `x` is incremental number.<br>When used the variable need to be evaluated and arguments are provided as function params:<br>`$(VariableName(param1, param2, param3, ...))`",
-    "code": "vTemp variable definition:<br>  sum( 100 + $1 + $2 + $3 )<br><br>Expression usage:<br> =$(vTemp(1,2,0))",
+    "code": "vTemp variable definition:\n  sum( 100 + $1 + $2 + $3 )\n\nExpression usage:\n =$(vTemp(1,2,0))",
     "references": [
         "https://community.qlik.com/thread/205922"
     ],
