@@ -2,7 +2,7 @@
   <div class="footer-section">
     <div></div>
     <div></div>
-    <div class="version">0.1.0</div>
+    <div class="version">0.1.1</div>
   </div>
 </template>
 
