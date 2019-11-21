@@ -3,7 +3,12 @@
     "description": "Assign a field to same field in another state",
     "code": "sum( {< Manager = Group1::Manager >} SalesAmount )",
     "filename": "",
-    "references": ["http://livingqlikview.com/livingqlik-roots-the-ultimate-qlikview-set-analysis-reference/"],
+    "references": [
+        "http://livingqlikview.com/livingqlik-roots-the-ultimate-qlikview-set-analysis-reference/"
+    ],
     "tags": "set analysis, state, aletenate state",
-    "contributor": { "name": "qlik-snippets", "link": "http://qlik-snippets.com" }
+    "contributor": {
+        "name": "@countnazgul",
+        "link": "https://twitter.com/countnazgul"
+    }
 }

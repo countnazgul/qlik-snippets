@@ -2,7 +2,12 @@
     "name": "Set Analysis - with Rank",
     "description": "Filter the dimension based on `Set Analysis` calculation",
     "code": "sum( {< Region = {\"=rank(avg(SalesAmount)) > 100\"} >} SalesAmount )",
-    "references": ["http://livingqlikview.com/livingqlik-roots-the-ultimate-qlikview-set-analysis-reference/"],
+    "references": [
+        "http://livingqlikview.com/livingqlik-roots-the-ultimate-qlikview-set-analysis-reference/"
+    ],
     "tags": "set analysis, rank",
-    "contributor": { "name": "qlik-snippets", "link": "http://qlik-snippets.com" }
+    "contributor": {
+        "name": "@countnazgul",
+        "link": "https://twitter.com/countnazgul"
+    }
 }

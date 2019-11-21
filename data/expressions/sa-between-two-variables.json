@@ -3,7 +3,12 @@
     "description": "Using `set analysis` to filter the records between two dates",
     "code": "sum( {< SalesDate = {\">=$(vStartDate)<=$(vEndDate)\"} >}  SalesAmount)",
     "filename": "",
-    "references": ["https://community.qlik.com/thread/232503"],
+    "references": [
+        "https://community.qlik.com/thread/232503"
+    ],
     "tags": "set analysis",
-    "contributor": { "name": "qlik-snippets", "link": "http://qlik-snippets.com" }
+    "contributor": {
+        "name": "@countnazgul",
+        "link": "https://twitter.com/countnazgul"
+    }
 }
