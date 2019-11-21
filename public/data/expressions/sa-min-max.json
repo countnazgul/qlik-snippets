@@ -1,0 +1,8 @@
+{
+    "name": "Set Analysis - using max()/min() function",
+    "description": "Using `max()`/`min()` function inside `set analysis`.",
+    "code": "sum( {< Date = {\"$(=Max(Date))\"} >} SalesAmount )",
+    "references": ["https://community.qlik.com/thread/179869"],
+    "tags": "set-analysis, max",
+    "contributor": { "name": "qlik-snippets", "link": "http://qlik-snippets.com" }
+}

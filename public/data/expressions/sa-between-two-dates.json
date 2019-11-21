@@ -1,0 +1,10 @@
+{
+    "name": "Set Analysis - between two dates",
+    "description": "Using `set analysis` to filter the records between two dates",
+    "code": "sum( {< SalesDate = {\">=$(=min(StartDate))<=$(=max(EndDate))\"} >} SalesAmount)",
+    "type": "Expression",
+    "filename": "",
+    "references": ["https://community.qlik.com/thread/33737", "https://community.qlik.com/blogs/qlikviewdesignblog/2015/09/28/dates-in-set-analysis"],
+    "tags": "set analysis",
+    "contributor": { "name": "qlik-snippets", "link": "http://qlik-snippets.com" }
+}
